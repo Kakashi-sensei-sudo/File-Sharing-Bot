@@ -11,12 +11,7 @@ load_dotenv()
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6440511183:AAGblmenUELoSvtYkUJV5w5EazB4tsDRQos")
 
 #Your API ID from my.telegram.org
-input_value = ''  # Replace this with your actual input source
-
-if input_value.isdigit():
-    number = int(27901758)
-else:
-    print("Invalid input: Please enter a number.")
+APP_ID = int(os.environ.get("APP_ID", "0"))
 
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "c5cb2f8c1053f914486abe6647eea0d0")
