@@ -6,24 +6,24 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
+  "repository": "https://github.com/Kakashi-sensei-sudo/File-Sharing-Bot",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "6440511183:AAGblmenUELoSvtYkUJV5w5EazB4tsDRQos"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "7193485475"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "27901758"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://sudhirpal96629:sudhir@cluster0.5k5i03c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -31,15 +31,15 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "c5cb2f8c1053f914486abe6647eea0d0"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001922352091"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1001922352091"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -55,7 +55,7 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "7193485475 2129308632 1871953626",
       "required": false
     },
     "PROTECT_CONTENT": {
